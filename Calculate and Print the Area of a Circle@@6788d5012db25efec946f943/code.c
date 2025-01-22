@@ -6,6 +6,8 @@ char* welcome() {
 
 int main() {
     int a;
+    float area;
     scanf("%f",&a);
-    printf("Area: %.2f",3.14*a*a);
+    area=3.14*a*a
+    printf("Area: %.2f",area);
 }
