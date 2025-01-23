@@ -8,7 +8,7 @@ int main() {
     int size;
     scanf("%d",&size);
     int arr[size];
-    int max=arr[0],min=arr[0];
+    int max=-1,min=-1;
     for(int i=0 ;i<size;i++){
         int ele;
         scanf("%d",&ele);
