@@ -14,10 +14,10 @@ int main() {
         scanf("%d",&ele);
         arr[i]=ele;
         if(arr[i]>max){
-            max=arr[i]
+            max=arr[i];
         }
         if(arr[i]<min){
-            min=arr[i]
+            min=arr[i];
         }
     }
 
