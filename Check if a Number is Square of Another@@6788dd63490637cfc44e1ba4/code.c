@@ -10,6 +10,6 @@ int main() {
     if(b*b==a){
         printf("Yes");
     }else{
-        printf("No")
+        printf("No");
     }
 }
