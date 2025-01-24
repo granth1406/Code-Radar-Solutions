@@ -10,7 +10,7 @@ int main() {
         scanf("%d",&ele);
         a[i]=ele;
     }
-    int max=-100;
+    int max=a[0];
     for(int i=0; i<size ;i++){
         if(a[i]%2==0){
             if(a[i]>max){
@@ -18,6 +18,10 @@ int main() {
             }
         }
     }
-    printf("%d",max);
+    if(max==a[0]){
+        printf("%d",-1);
+    }else{
+        printf("%d",max);
+    }
 
 }
