@@ -16,8 +16,7 @@ int main() {
     }
     int max=-1;
     for(int i=0; i<size ;i++){
-        if(a[i]%2==0){
-            if(a[i]>max){
+        if(a[i]%2==0 && a[i]>max){
                 max=a[i];
             }
         }
