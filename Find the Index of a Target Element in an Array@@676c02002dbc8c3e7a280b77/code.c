@@ -17,9 +17,8 @@ int main() {
     scanf("%d",&t);
     for(int i=0;i<size;i++){
         if(arr[i]==t){
-            printf("%d",i);
-            break;
+            return i;
         }
     }
-    printf("%d",-1);
+    return -1;
 }
