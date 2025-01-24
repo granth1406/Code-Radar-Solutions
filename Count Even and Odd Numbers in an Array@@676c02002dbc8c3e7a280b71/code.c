@@ -19,5 +19,5 @@ int main() {
             odd++;
         }
     }
-    printf("%d",even,odd);
+    printf("%d %d",even,odd);
 }
