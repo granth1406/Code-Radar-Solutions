@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int size;
     scanf("%d",&size);
     int arr[size];
     for(int i=0;i<size;i++){
         int ele;
+        arr[i]=ele;
         int sum=0;
         scanf("%d",&ele);
         while(ele>0){
