@@ -21,7 +21,5 @@ int main() {
             break;
         }
     }
-    else{
-        printf("%d",-1);
-    }
+    printf("%d",-1);
 }
