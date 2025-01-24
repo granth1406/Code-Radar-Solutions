@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int size;
     scanf("%d",&size);
@@ -14,7 +10,7 @@ int main() {
         scanf("%d",&ele);
         a[i]=ele;
     }
-    int max=-1;
+    int max=a[0];
     for(int i=0; i<size ;i++){
         if(a[i]%2==0){
             if(a[i]>max){
