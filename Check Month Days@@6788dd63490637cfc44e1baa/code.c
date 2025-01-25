@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int m;
-    scanf("%d",&month);
+    scanf("%d",&m);
     if(m%2!=0){
         printf("31");
     }else if(m%2==0 && m!=2){
