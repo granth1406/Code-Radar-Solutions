@@ -13,7 +13,7 @@ int main() {
     struct Student students[n];
 
     for(int i=0 ; i<n ; i++){
-        scanf("%d %s %f",&students.Roll,&students.name,&students.marks);
+        scanf("%d %s %f",&students[i].Roll,&students[i].name,&students[i].marks);
     }
 
     for(int i=0;i<n;i++){
