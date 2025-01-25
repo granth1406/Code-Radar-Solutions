@@ -7,8 +7,8 @@ char* welcome() {
 int main() {
     int a,b;
     scanf("%d",&a,&b);
-    int sq=a*a;
-    if(sq==b){
+    int sq=b*b;
+    if(sq==a){
         printf("Yes");
     }else{
         printf("No");
