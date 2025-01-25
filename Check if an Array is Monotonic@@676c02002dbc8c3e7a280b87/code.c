@@ -12,15 +12,10 @@ int main() {
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){
             if(arr[i]<arr[j] || arr[i]>arr[j]){
-                r=1;
+                printf("Yes")
             }else{
-                r=0;
+                printf("NO")
             }
         }
-    }
-    if(r=1){
-        printf("Yes");
-    }else{
-        printf("No");
     }
 }
