@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
+    double a,b,c;
+    scanf("%lf %lf %lf",&a,&b,&c);
     printf("Average: %.2lf",(a+b+c)/3);
 }
