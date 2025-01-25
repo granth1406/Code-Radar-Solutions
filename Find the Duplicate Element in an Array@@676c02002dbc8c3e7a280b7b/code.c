@@ -15,10 +15,9 @@ int main() {
         arr[i]=ele;
     }
 
-    for(int val:arr){
+    for(int val : arr){
         ans^=val;
     }
-
-    printf("%d",ans);
+    return ans;
 
 }
