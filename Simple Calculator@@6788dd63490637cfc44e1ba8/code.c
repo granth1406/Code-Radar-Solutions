@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    double a,b;
+    int a,b;
     char o;
     scanf("%d %d %c",&a,&b,&o);
     if(o=='+'){
-        printf("%lf",a+b);
+        printf("%d",a+b);
     }else if(o=='-'){
-        printf("%lf",a-b);
+        printf("%d",a-b);
     }else if(o=='*'){
-        printf("%lf",a*b);
+        printf("%d",a*b);
     }else if(o=='/'){
-        printf("%lf",a/b);
+        printf("%d",a/b);
     }else{
         printf("error");
     }
