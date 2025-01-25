@@ -14,7 +14,7 @@ int main(){
         scanf("%d",&ele);
         arr[i]=ele;
     }
-    int product=1;
+    int product=0;
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){
             if(product<arr[j]*arr[i]){
