@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    float area;
-    scanf("%f",&a);
+    double a;
+    double area;
+    scanf("%lf",&a);
     area=3.14*a*a;
-    printf("Area: %.2f",area);
+    printf("Area: %.2lf",area);
 }
