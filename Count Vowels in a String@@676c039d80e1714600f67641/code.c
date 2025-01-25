@@ -9,7 +9,7 @@ int main() {
     scanf("%s",&s);
     int count=0;
     for(int i=0;i!='\0';i++){
-        val=str[i];
+        char val=str[i];
         if(val=='a' || val=='e' || val=='i' || val=='o' || val=='u'){
             count++;
         }
