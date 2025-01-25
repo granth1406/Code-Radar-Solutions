@@ -13,9 +13,12 @@ int main() {
         int ele;
         scanf("%d",&ele);
         arr[i]=ele;
-
-        ans=ans^arr[i];
     }
+
+    for(int val:arr){
+        ans^=val;
+    }
+
     printf("%d",ans);
 
 }
