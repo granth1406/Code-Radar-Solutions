@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&size);
     for(int i=0;i<size;i++){
         int ele;
-        scanf("%d",&ele)
+        scanf("%d",&ele);
         arr[i]=ele;
     }
 
