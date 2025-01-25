@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int size;
+    scanf("%d",&size);
     int arr[size];
     int ans=0;
 
@@ -18,6 +15,6 @@ int main() {
     for(int val : arr){
         ans^=val;
     }
-    return ans;
+    printf("%d",ans);
 
 }
