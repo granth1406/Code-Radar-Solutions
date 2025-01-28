@@ -15,7 +15,7 @@ int main() {
             sum+=n;
             ele/=10;
         }
-        printf("%d",sum);
+        printf("%d ",sum);
     }
 
 }
