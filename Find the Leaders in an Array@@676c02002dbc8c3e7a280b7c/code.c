@@ -14,18 +14,15 @@ int main() {
         scanf("%d",&ele);
         arr[i]=ele;
     }
-    int r=1;
     for(int i=0;i<size;i++){
+        int r=1;
         for(int j=i+1;j<size;j++){
-            if(arr[i]>arr[j]){
-                r=1;
-            }else{
+            if(arr[i]<=arr[j]){
                 r=0;
             }
-
         }
-        if(r=1){
-            printf("%d",arr[i]);
+        if(r==1){
+            printf("%d ",arr[i]);
         }
     }
 }
