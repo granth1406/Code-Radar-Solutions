@@ -14,7 +14,7 @@ int main() {
     for(int i=0;i<size;i++){
         for(int j=0;j<size;j++){
             if(arr[i]>arr[j] && arr[i]-arr[j]<diff){
-                return {arr[i],arr[j]}
+                return {arr[i],arr[j]};
             }
 
         }
