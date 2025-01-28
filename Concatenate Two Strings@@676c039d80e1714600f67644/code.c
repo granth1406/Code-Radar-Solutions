@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char s[100];
     char s2[100];
-    scanf("%s",&s);
-    scanf("%s",&s2);
-    printf("%s&s",s,s2);
+    fgets(s,100,stdin);
+    fgets(s2,100,stdin);
+    printf("%s%s",s,s2);
 }
