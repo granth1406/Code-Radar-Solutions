@@ -20,7 +20,7 @@ int main() {
             if(arr[i]>arr[j]){
                 r=1;
             }else{
-                r=0
+                r=0;
             }
 
         }
