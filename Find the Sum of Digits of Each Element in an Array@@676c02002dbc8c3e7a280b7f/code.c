@@ -6,11 +6,8 @@ int main() {
     int arr[size];
     for(int i=0;i<size;i++){
         int ele;
+        scanf("%d",&ele);
         arr[i]=ele;
-    }
-
-
-    for(int j=0;j<size;j++){
         int sum=0;
         scanf("%d",&ele);
         while(ele>0){
@@ -20,5 +17,5 @@ int main() {
         }
         printf("%d",sum);
     }
-    
+
 }
