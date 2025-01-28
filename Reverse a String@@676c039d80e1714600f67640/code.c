@@ -4,5 +4,8 @@
 int main() {
     int s[40];
     scanf("%s",&s);
-    printf("%s",strrev(s));
+    len=strlen(s);
+    for(int i=len-1;i>=0;i++){
+        printf("%c",s[i]);
+    }
 }
