@@ -11,5 +11,5 @@ int main() {
     for(int i=0,str[i]!='\0';i++){
         count++;
     }
-    printf("%d",count);
+    return count;
 }
