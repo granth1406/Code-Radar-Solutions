@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int target() {
+int main() {
     int size;
     scanf("%d",&size);
     int arr[size];
@@ -21,8 +21,4 @@ int target() {
         }
     }
     return -1;
-}
-
-int main(){
-    printf(target());
 }
