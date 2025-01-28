@@ -12,8 +12,8 @@ int main() {
         arr[i]=ele;
     }
 
-    for(int val : arr){
-        ans^=val;
+    for(int j=0;j<size;j++){
+        ans^=arr[j];
     }
     printf("%d",ans);
 
