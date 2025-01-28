@@ -9,7 +9,6 @@ int main() {
         scanf("%d",&ele);
         arr[i]=ele;
         int sum=0;
-        scanf("%d",&ele);
         while(ele>0){
             int n=ele%10;
             sum+=n;
