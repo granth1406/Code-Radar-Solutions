@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int s[100];
-    int s2[100];
+    char s[100];
+    char s2[100];
     scanf("%s",&s);
     scanf("%s",&s2);
-    printf("%s &s",s,s2);
+    printf("%s&s",s,s2);
 }
