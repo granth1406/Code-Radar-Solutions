@@ -15,7 +15,13 @@ int main() {
             break;
         case '/':
             printf("%d",a/b);
+            if(b==0){
+                printf("error");
+            }else{
+                printf("%.0lf",a/b);
+            }
             break;
+        
     }
     return 0;
 }
