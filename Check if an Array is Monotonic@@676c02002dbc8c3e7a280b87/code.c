@@ -8,7 +8,7 @@ int main() {
     int size;
     scanf("%d",&size);
     int arr[size];
-    int r=0;
+    int r=1;
 
     for(int i=0;i<size;i++){
         int ele;
@@ -19,10 +19,13 @@ int main() {
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){
             if(arr[i]<arr[j] || arr[i]>arr[j]){
-                printf("Yes");
-            }else{
-                printf("NO")
+                r=0;
             }
+        }
+        if(r==0){
+            printf("Yes");
+        }else{
+            printf("No");
         }
     }
 }
