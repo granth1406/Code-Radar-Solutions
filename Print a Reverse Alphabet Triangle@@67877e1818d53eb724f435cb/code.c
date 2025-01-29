@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&c);
     for(int i=1;i<=n;i++){
         char ch='A'+n-i;
-        for(int j=n;j>=1;j--){
+        for(int j=n;j>=i;j--){
             printf("%c",ch);
             ch++;
         }
