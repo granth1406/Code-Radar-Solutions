@@ -6,10 +6,10 @@ char* welcome() {
 
 int main() {
     
-    int n,r=1;
+    int n,r=0;
     scanf("%d",&n);
     if(n<=1){
-        r=0;
+        r=1;
     }else{
         for(int i=2;i<=n/2;i++){
             if(n%i==0){
