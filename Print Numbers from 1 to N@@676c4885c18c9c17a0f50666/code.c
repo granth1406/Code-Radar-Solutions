@@ -6,10 +6,8 @@ char* welcome() {
 
 int main() {
     int n;
-    int i=1;
     scanf("%d",&n);
-    while(i<n){
+    for(int i=0;i<=n;i++){
         printf("%d ",i);
-        i++;
     }
     }
