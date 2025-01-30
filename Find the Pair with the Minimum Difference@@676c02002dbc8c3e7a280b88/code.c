@@ -21,5 +21,9 @@ int main() {
 
         }
     }
+    if(diff==100){
+        printf("%d",-1);
+    }else{
     printf("%d %d",a1,a2);
+    }
 }
