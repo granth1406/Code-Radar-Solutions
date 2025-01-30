@@ -14,11 +14,16 @@ int main() {
         arr[i]=ele;
     }
     int t;
+    int count=0;
     scanf("%d",&t);
     for(int i=0;i<size;i++){
         if(arr[i]==t){
-            return i;
+            printf("%d",i);
+            count++;
         }
     }
-    return -1;
+    if (count==0){
+        printf("%d",-1);
+    }
+    
 }
