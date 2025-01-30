@@ -21,7 +21,7 @@ int main() {
                 break;
             }
         }
-        if (count>1){
+        if (count==1){
             break;
         }
     }
