@@ -23,8 +23,6 @@ int main() {
         }
         if (count==1){
             break;
-        }else{
-            printf("%d",-1);
         }
     }
 }
