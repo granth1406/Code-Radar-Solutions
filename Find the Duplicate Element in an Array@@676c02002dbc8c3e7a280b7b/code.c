@@ -10,10 +10,15 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    int ans=1;
-    for(int j=0;j<size;j++){
-        ans^=arr[j];
+    for(int i=0;i<size;i++){
+        for(int j=i+1;j<size;j++){
+            if(arr[i]==arr[j]){
+                printf("%d",arr[i]);
+                break;
+            }
+        }
     }
+
     printf("%d",ans);
 
 }
