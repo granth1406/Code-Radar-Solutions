@@ -10,6 +10,10 @@ int main() {
     int arr[size];
 
     for(int i=0;i<size;i++){
+        scanf("%d",&arr[i]);
+    }
+
+    for(int i=0;i<size;i++){
         int count=0;
         for(int j=i+1;j<size;j++){
             if(arr[i]==arr[j]){
