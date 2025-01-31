@@ -19,10 +19,11 @@ int main() {
             if(arr[i]%j!=0){
                 r=1;
             }
+        }
             if(r==1){
                 count++;
             }
-        }
+        
     }
     printf("%d",count);
 }
