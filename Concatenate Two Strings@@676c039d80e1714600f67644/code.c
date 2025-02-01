@@ -13,11 +13,11 @@ int main() {
     int i=0,j=0;
 
     while(s[i]!='\0'){
-        printf("%s",s[i]);
+        printf("%c",s[i]);
         i++;
     }
     while(s2[j]!='\0'){
-        printf("%s",s2[j]);
+        printf("%c",s2[j]);
         j++;
     }
 }
