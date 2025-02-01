@@ -1,11 +1,13 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     int s[40];
-    scanf("%s",&s);
-    int len=strlen(s);
-    for(int i=len-1;i>=0;i++){
-        printf("%c",s[i]);
+    fgets(s,sizeof(s),stdin);
+    int i=0;
+    while(s[i]!='\0'){
+        i++;
+    }
+    for(int j=i-1;j>=0;j++){
+        printf("%c ",s[j]);
     }
 }
