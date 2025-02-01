@@ -9,5 +9,5 @@ int main() {
     char s2[100];
     fgets(s,sizeof(s),stdin);
     fgets(s2,sizeof(s2),stdin);
-    printf("%s%s",s,s2);
+    printf("%s",s+s2);
 }
