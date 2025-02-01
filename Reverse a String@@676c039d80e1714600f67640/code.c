@@ -7,7 +7,7 @@ int main() {
     while(s[i]!='\0'){
         i++;
     }
-    for(int j=i-1;j>=0;j++){
+    for(int j=i-1;j>=0;j--){
         printf("%c ",s[j]);
     }
 }
