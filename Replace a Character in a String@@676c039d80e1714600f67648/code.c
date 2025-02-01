@@ -10,7 +10,7 @@ int main() {
     char b;
     fgets(str,sizeof(str),stdin);
     scanf("%c",&a);
-    scanf("%c",&b);
+    scanf(" %c",&b);
 
     for(int i=0;str[i]!='\0';i++){
         if(str[i]==a){
