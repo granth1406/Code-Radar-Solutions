@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int s[40];
+    char s[40];
     fgets(s,sizeof(s),stdin);
     int i=0;
     while(s[i]!='\0'){
