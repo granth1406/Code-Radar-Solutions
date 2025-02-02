@@ -9,7 +9,7 @@ int main() {
     fgets(str,sizeof(str),stdin);
     int wordcount=0;
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]==' '&& 'A'<=str[i+1]<='Z' || 'a'<=str[i+1]<='z'){
+        if(str[i]==' '){
             wordcount++;
         }
     }
