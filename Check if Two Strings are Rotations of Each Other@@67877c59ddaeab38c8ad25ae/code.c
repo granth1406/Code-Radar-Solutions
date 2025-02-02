@@ -7,6 +7,8 @@ char* welcome() {
 int main() {
     char str[100];
     fgets(str,sizeof(str),stdin);
+    char str2[100];
+    fgets(str2,sizeof(str2),stdin);
     int len=0;
     while(str[i]!='\0'){
         len++;
