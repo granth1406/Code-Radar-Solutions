@@ -12,13 +12,12 @@ int main() {
         for(int j=i+1;str[j]!='\0';j++){
             if(str[i]!=str[j]){
                 r=1;
-            }else{
-                
             }
-            if(r==0){
+            if(r==1){
                 printf("%c",str[i]);
                 return 0;
             }
+
         } 
     }
     printf("-");
