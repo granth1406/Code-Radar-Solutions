@@ -13,11 +13,14 @@ int main() {
             if(str[i]!=str[j]){
                 r=1;
             }
-            if(r==1){
+            if(r==0){
+                printf("-");
+                return 0;
+            else{
                 printf("%c",str[i]);
                 return 0;
             }
+            }
         } 
     }
-    printf("-");
 }
