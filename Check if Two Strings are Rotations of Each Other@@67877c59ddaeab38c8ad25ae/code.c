@@ -17,7 +17,7 @@ int main() {
     for(int i=0;str[i]!='\0';i++){
         for(int j =len-1;j>=0;j--){
             if(str[i]!=str2[j]){
-                print("No");
+                printf("No");
                 return 0;
             }
         }
