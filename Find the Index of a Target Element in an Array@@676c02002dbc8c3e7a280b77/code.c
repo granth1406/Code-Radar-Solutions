@@ -20,6 +20,7 @@ int main() {
         if(arr[i]==t){
             printf("%d",i);
             count++;
+            return 0;
         }
     }
     if (count==0){
