@@ -13,7 +13,7 @@ int main() {
         if(arr[i]>max){
             sec_max=max;
             max=arr[i];
-        }else if(arr[i]<max && arr[i]!=max){
+        }else if(arr[i]>sec_max && arr[i]!=max){
             sec_max=arr[i];
         }
     }
