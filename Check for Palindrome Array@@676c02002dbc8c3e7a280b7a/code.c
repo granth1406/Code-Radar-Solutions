@@ -10,7 +10,7 @@ int main() {
     int arr[n];
 
     for(int i=0;i<n;i++){
-        scanf("%d",&n);
+        scanf("%d",&arr[i]);
     }
     int r=1;
     int right=0,left=n-1;
