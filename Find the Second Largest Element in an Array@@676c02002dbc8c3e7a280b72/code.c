@@ -17,9 +17,5 @@ int main() {
             sec_max=arr[i];
         }
     }
-    if(sec_max==arr[0]){
-        printf("%d",-1);
-    }else{
-        printf("%d",sec_max);
-    }
+    printf("%d",sec_max);
 }
