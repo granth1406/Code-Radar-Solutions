@@ -13,7 +13,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int min=a[0];
-    int sec_min=a[0];
+    int sec_min=a[1];
     for(int i=1;i<n;i++){
         if(arr[i]<min){
             sec_min=min;
