@@ -18,7 +18,7 @@ int main() {
         }
     }
     if(sec_max==-1){
-        printf("-1");
+        printf("%d",-1);
     }else{
         printf("%d",sec_max);
     }
