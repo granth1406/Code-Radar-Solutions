@@ -18,7 +18,7 @@ int main() {
         }
     }
     if(arr[i]==-1){
-        printf(-1);
+        printf("-1");
     }else{
     printf("%d", sec_max);
     }
