@@ -25,7 +25,7 @@ int main() {
         }
     }
     if(sec_min==-1){
-        printf("%d",-1);
+        printf("-1");
     }else{
         printf("%d",sec_min);
     }
