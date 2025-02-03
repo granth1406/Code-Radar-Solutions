@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int max=arr[0];
-    int sec_max=-1;
+    int sec_max=-100;
     for(int i=1;i<n;i++){
         if (arr[i]>max){
             sec_max=max;
@@ -17,5 +17,9 @@ int main() {
             sec_max=arr[i];
         }
     }
+    if(arr[i]==-1){
+        printf("%d",-1);
+    }else{
     printf("%d", sec_max);
+    }
 }
