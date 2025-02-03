@@ -25,6 +25,6 @@ int main() {
     if (r==0){
         printf("No");
     }else{
-        printf("Yes")
+        printf("Yes");
     }
 }
