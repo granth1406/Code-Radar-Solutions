@@ -12,10 +12,8 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
-    int min=a[0];
-    int sec_min=-1;
-
+    int min=-1;
+    int sec_min=-2;
     for(int i=1;i<n;i++){
         if(arr[i]<min){
             sec_min=min;
