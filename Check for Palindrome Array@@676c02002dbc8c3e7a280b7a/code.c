@@ -18,9 +18,9 @@ int main() {
         left--;
     }
     if(r==0){
-        printf("No");
+        printf("NO");
     }else{
-        printf("Yes");
+        printf("YES");
     }
 
 }
