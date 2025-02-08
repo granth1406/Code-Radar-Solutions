@@ -9,6 +9,7 @@ int main() {
         for(int j=0;str[j]!='\0' && j<i ;j++){
             if(str[i]==str[j]){
                 r=1;
+                break;
             }
         }
         if(r==0){
