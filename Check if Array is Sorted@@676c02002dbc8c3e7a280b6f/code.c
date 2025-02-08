@@ -1,20 +1,24 @@
-#include <stdio.h>
-int main() {
-    int size;
-    int arr[size];
-    for(int i=0; i<size; i++){
-        int ele;
-        scanf("%d",&ele);
-        arr[i]=ele;
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
-    for(int i=1 ; i<size;i++){
-        if(arr[i-1]>arr[i]){
-            printf("Not Sorted");
-            break;
-        }
-        else{
-            printf("Sorted");
-        }
 
+    r=1;
+
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i]>arr[j]){
+                r=0;
+            }
+        }
+    }
+    if(r==1){
+        printf("Sorted");
+    }else{
+        printf("Not Sorted");
     }
 }
