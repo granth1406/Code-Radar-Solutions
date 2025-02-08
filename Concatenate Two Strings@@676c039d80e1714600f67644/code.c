@@ -13,12 +13,16 @@ int main() {
     int i=0,j=0;
 
     while(s[i]!='\0'){
+        if(s[i]!='\n'){
         printf("%c",s[i]);
+        }
         i++;
     }
     printf("");
     while(s2[j]!='\0'){
+        if(s2[j]!='\n'){
         printf("%c",s2[j]);
+        }
         j++;
     }
 }
