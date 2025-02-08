@@ -6,7 +6,7 @@ int main() {
 
     for(int i=0;str[i]!='\0';i++){
         int r=0;
-        for(int j=0;str[j]!='\0',j++){
+        for(int j=0;str[j]!='\0';j++){
             if(str[i]==str[j]){
                 r=1;
                 break;
