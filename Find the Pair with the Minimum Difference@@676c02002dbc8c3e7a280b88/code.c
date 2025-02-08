@@ -1,29 +1,23 @@
-#include <stdio.h>
-
-int main() {
-    int size;
-    scanf("%d",&size);
-    int arr[size];
-
-    for(int i=0;i<size;i++){
-        int ele;
-        scanf("%d",&ele);
-        arr[i]=ele;
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
-    int diff=100;
-    int a1,a2;
-    for(int i=0;i<size;i++){
-        for(int j=0;j<size;j++){
-            if(arr[i]>arr[j] && arr[i]-arr[j]<diff){
-                a1=arr[i];
-                a2=arr[j];
-            }
 
+    int diff=0;
+    int a,b;
+
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i]-arr[j]<diff){
+                diff=arr[i]-arr[j];
+                a=arr[i];
+                b=arr[j];
+            }
         }
     }
-    if(diff==100){
-        printf("%d",-1);
-    }else{
-    printf("%d %d",a1,a2);
-    }
+    printf("%d %d",b,a);
 }
