@@ -9,10 +9,9 @@ void bubbleSort(int arr[],int n){
                 arr[j]=temp;
             }
         }
-
-    }
-    for(int i=0;i<size;i++){
-        printf("%d ",arr[i]);
+void printArray(int arr[],int n){
+    for(int i=0;i<n;i++){
+        printf(arr[i]);
     }
 }
 
@@ -24,5 +23,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     bubbleSort(arr,n);
+    printArray(arr,n);
     return 0;
 }
