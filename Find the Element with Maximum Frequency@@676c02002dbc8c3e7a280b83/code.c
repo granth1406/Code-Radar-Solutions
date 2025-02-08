@@ -13,10 +13,10 @@ int main() {
     }
 
     int max_ele=arr[0];
-    int max_freq=1;
-    int count=0;
+    int max_freq=0;
 
     for(int i=0;i<n;i++){
+        int count=1;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
