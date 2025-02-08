@@ -19,7 +19,7 @@ int main() {
                 max=arr[j];
             }
         }
-        printf("%d",max);
+        printf("%d ",max);
     }
 
 }
