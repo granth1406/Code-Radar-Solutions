@@ -18,7 +18,6 @@ int main() {
     for(int i=0;i<size;i++){
         if(arr[i]==t){
             printf("%d",i);
-            count++;
             return 0;
         }
     }
