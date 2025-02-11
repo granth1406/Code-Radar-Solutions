@@ -16,7 +16,7 @@ int main() {
 
         
     
-    if(r==0){
+    if(r==1){
         printf("%c",str[i]);
         return 0;
     }
