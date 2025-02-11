@@ -23,10 +23,8 @@ int main() {
         }
         if(count>(size/2)){
             printf("%d",arr[i]);
-            break;
-        }else{
-            printf("%d",-1);
-            break;
+            return 0;
         }
+        printf("%d",-1);
     }
 }
