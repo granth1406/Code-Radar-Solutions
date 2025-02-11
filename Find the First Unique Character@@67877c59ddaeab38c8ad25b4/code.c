@@ -14,13 +14,12 @@ int main() {
                 r=1;
             }
 
-        
+        }  
     
     if(r==1){
         printf("%c",str[i]);
         return 0;
     }
-        }
     }
     printf("-");
 }
