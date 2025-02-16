@@ -8,6 +8,6 @@ int main(){
             printf("%d",c);
             c++;
         }
-        printf
+        printf("\n");
     }
 }
