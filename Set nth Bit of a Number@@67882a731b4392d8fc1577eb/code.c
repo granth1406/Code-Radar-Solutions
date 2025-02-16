@@ -4,5 +4,5 @@ int main(){
     int x,y;
     scanf("%d",&x,&y);
 
-    printf("%d",x|1<<y);
+    printf("%d",x|y<<1);
 }
