@@ -9,7 +9,10 @@ int main(){
         if(str[i]>='A' && str[i]<='Z'){
             str[i]+=32;
         }
+    }
+    for(int i=0;str[i]!='\n';i++){
         printf("%c",str[i]);
+
     }
 
 }
