@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<size;i++){
         scanf("%d",&arr[i]);
         int n=arr[i];
-        int rev;
+        int rev=0;
         while(n>0){
             int ele=n%10;
             n/=10;
