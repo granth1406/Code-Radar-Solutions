@@ -8,12 +8,13 @@ int main() {
         int ele;
         ele=abs(ele);
         scanf("%d",&ele);
-        arr[i]=abs(ele);
+        int abs_ele=abs(ele)
+        arr[i]=abs_ele;
         int sum=0;
-        while(ele>0){
-            int n=ele%10;
+        while(abs_ele>0){
+            int n=abs_ele%10;
             sum+=n;
-            ele/=10;
+            abs_ele/=10;
         }
         printf("%d ",sum);
     }
