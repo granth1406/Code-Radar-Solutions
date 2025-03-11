@@ -3,7 +3,7 @@ int main(){
     int size;
     scanf("%d",&size);
     int arr[size];
-    int max_freq=0;
+    int max_freq;
     int count=0;
     int ele_count=0;
     for(int i=0;i<size;i++){
