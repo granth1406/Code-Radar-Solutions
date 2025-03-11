@@ -8,7 +8,7 @@ int main() {
         int ele;
         ele=abs(ele);
         scanf("%d",&ele);
-        arr[i]=ele;
+        arr[i]=abs(ele);
         int sum=0;
         while(ele>0){
             int n=ele%10;
