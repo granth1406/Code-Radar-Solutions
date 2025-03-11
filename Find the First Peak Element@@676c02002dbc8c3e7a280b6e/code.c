@@ -10,6 +10,11 @@ int main(){
         if(arr[i]>arr[i+1] && arr[i]>arr[i-1]){
             printf("%d",arr[i]);
             return 0;
+        }else if(i==size){
+            if(arr[i]>arr[i-1]){
+                printf("%d",arr[i]);
+                return 0;
+            }
         }
     }
 }
