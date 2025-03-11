@@ -18,5 +18,6 @@ int main(){
             max_freq=arr[i];
         }
     }
+    printf("%d",max_freq);
     
 }
