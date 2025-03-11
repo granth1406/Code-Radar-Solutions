@@ -10,6 +10,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<size;i++){
+        ele_count=0;
         for(int j=0;j<size;j++){
             if(arr[i]==arr[j]){
                 ele_count++;
