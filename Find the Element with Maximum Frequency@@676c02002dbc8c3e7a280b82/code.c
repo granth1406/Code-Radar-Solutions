@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     int size;
+    scanf("%d",&size);
     int arr[size];
     int max_freq=0;
     int count=0;
