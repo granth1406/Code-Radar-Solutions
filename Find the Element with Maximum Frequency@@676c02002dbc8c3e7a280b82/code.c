@@ -15,6 +15,7 @@ int main(){
             }
         }
         if(ele_count>count){
+            count=ele_count;
             max_freq=arr[i];
         }
     }
