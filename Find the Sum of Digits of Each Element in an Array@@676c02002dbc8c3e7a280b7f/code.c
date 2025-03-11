@@ -1,11 +1,12 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int main() {
     int size;
     scanf("%d",&size);
     int arr[size];
     for(int i=0;i<size;i++){
         int ele;
+        ele=abs(ele);
         scanf("%d",&ele);
         arr[i]=ele;
         int sum=0;
