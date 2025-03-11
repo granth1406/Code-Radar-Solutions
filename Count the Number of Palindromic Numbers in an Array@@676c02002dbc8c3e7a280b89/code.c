@@ -11,7 +11,7 @@ int main(){
         while(n>0){
             int ele=n%10;
             n/=10;
-            rev+=ele;
+            rev+=ele*10;
         }
         if(rev==arr[i]){
             count++;
