@@ -12,16 +12,17 @@ int main() {
     }
 
     int target;
-    int prev=0;
+    int x,y;
     scanf("%d",&target);
     for(int i=0;i<size;i++){
         for(int j=i+1;j<size;j++){
             if(arr[i]+arr[j]==target){
-                if(prev==arr[i]+arr[j]){
+                if(x==arr[i] && y==arr[j]){
                     break;
                 }
                 printf("%d %d\n",arr[i],arr[j]);
-                prev=arr[i]+arr[j];
+                x=arr[i];
+                y=arr[j];
             }
             
         }
