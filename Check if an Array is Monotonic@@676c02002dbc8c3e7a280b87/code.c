@@ -21,7 +21,7 @@ int main() {
     }
 
     if(inc||dec){
-        printf("Yes");
+        printf("YES");
     }else{
         printf("NO");
     }
