@@ -12,8 +12,8 @@ int main(){
 
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[j]-arr[i]<diff && arr[j]-arr[i]>=0){
-                diff=arr[j]-arr[i];
+            if(arr[i]-arr[j]<diff && arr[j]-arr[i]>=0){
+                diff=arr[i]-arr[j];
                 a=arr[i];
                 b=arr[j];
             }
