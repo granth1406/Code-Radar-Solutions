@@ -10,7 +10,7 @@ int main() {
     int dec=1;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]>arr[i+1]){
+            if(arr[i]>arr[j]){
                 inc=0;
             }
         }
@@ -18,7 +18,7 @@ int main() {
 
     for(int i=0;i>n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]<arr[i+1]){
+            if(arr[i]<arr[j]){
                 dec=0;
             }
         }
