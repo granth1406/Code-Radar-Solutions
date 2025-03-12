@@ -1,31 +1,28 @@
-#include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
+#include<stdio.h>
 int main() {
-    int size;
-    scanf("%d",&size);
-    int arr[size];
-    int r=1;
-
-    for(int i=0;i<size;i++){
-        int ele;
-        scanf("%d",&ele);
-        arr[i]=ele;
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    int inc=1;
+    int dec=1;
+    for(int i=0;i<n-1;i++){
+        if(arr[i]>arr[i+1]){
+            inc=0;
+        }
     }
 
-    for(int i=0;i<size;i++){
-        for(int j=i+1;j<size;j++){
-            if(arr[i]<arr[j] || arr[i]>arr[j]){
-                r=0;
-            }
+    for(int i=0;i>n-1;i++){
+        if(arr[i]<arr[j]){
+            dec=0;
         }
-        if(r==0){
-            printf("Yes");
-        }else{
-            printf("No");
-        }
+    }
+
+    if(inc||dec){
+        printf("Yes");
+    }else{
+        printf("NO");
     }
 }
