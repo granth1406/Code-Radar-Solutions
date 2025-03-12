@@ -12,8 +12,9 @@ int main() {
     for(int i=0;i<size;i++){
         int r=0;
         for(int j=2;j<=arr[i]/2;j++){
-            if(arr[i]%j!=0){
-                r=1;
+            if(arr[i]%j=0){
+                r=0;
+                break
             }
         }
         if(r==1){
