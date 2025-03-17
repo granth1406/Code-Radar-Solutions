@@ -7,7 +7,7 @@ int main(){
     fgets(s1,sizeof(s1),stdin);
     fgets(s2,sizeof(s2),stdin);
 
-    int c=strlen(s2)
+    int c=strlen(s2);
 
     int r=1;
 
