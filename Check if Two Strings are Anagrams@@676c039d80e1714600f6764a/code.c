@@ -14,7 +14,7 @@ int main(){
     int r=1;
 
     for(int i=0;s1[i]!='\0';i++){
-        for(int j=c;j>=0;i++){
+        for(int j=c;j>=0;j++){
             if(s1[i]!=s2[j]){
                 printf("No");
                 return 0;
