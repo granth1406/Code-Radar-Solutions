@@ -6,7 +6,7 @@ int main(){
     fgets(s1,sizeof(s1),stdin);
     fgets(s2,sizeof(s2),stdin);
 
-    int c;
+    int c=0;
     for(int i=0;s2[i]!='\0';i++){
         c++;
     }
