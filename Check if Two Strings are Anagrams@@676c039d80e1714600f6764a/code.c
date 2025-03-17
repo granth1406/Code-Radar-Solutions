@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     char s1[100];
     char s2[100];
@@ -15,14 +16,10 @@ int main(){
     for(int i=0;s1[i]!='\0';i++){
         for(int j=c;j>=0;i++){
             if(s1[i]!=s2[j]){
-                r=0;
+                printf("No");
+                return 0;
             }
         }
     }
-
-    if(r==0){
-        printf("No");
-    }else{
-        printf("Yes");
-    }
+    printf("Yes");
 }
