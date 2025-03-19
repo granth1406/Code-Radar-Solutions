@@ -5,7 +5,7 @@ int isPrime(int num){
             count++;
         }
     }
-    if(count>=2){
+    if(count>2){
         return 0;
     }else{
         return 1;
