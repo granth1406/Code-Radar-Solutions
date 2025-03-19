@@ -17,7 +17,7 @@ int main() {
                 break;
             }
         }
-        if(r==1){
+        if(r==2){
             count++;
         }
         
