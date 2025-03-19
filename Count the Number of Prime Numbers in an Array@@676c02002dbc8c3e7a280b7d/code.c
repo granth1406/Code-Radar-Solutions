@@ -13,7 +13,7 @@ int main() {
         int r=0;
         for(int j=2;j<=arr[i]/2;j++){
             if(arr[i]%j==0){
-                r=0;
+                r=2;
                 break;
             }
         }
