@@ -11,13 +11,13 @@ int main() {
     int count=0;
     for(int i=0;i<size;i++){
         int r=0;
-        for(int j=2;j<=arr[i]/2;j++){
+        for(int j=2;j<arr[i]/2;j++){
             if(arr[i]%j==0){
-                r=2;
+                r=1;
                 break;
             }
         }
-        if(r==2){
+        if(r==1){
             count++;
         }
         
