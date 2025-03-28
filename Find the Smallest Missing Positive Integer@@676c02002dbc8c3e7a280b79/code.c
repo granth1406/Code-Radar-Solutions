@@ -19,7 +19,7 @@ int main() {
 
     for(int i=0;i<size-1;i++){
         if(arr[i]+1!=arr[i+1]){
-            printf(arr[i]+1);
+            printf("%d",arr[i]+1);
             return 0;
         }
     }
