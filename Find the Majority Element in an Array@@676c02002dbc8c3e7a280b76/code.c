@@ -26,6 +26,6 @@ int main() {
             return 0;
         }
     }
-        printf("%d",-1);
+    printf("%d",-1);
     
 }
