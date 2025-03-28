@@ -14,7 +14,7 @@ int main() {
         printf("1 1 1 1 1 1 1");
         return 0;
     }
-    if(s==4){
+    if(size==4){
         printf("10");
         return 0;
     }
