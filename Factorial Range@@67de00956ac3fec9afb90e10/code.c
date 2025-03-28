@@ -8,4 +8,5 @@ int factorialRange(int start,int end){
         }
         printf("%d\n",fact);
     }
+    printf("Invalid range")
 }
