@@ -21,7 +21,7 @@ int main() {
                 count++;
             }
         }
-        if(count>(size/2)){
+        if(count>=(size/2)){
             printf("%d",arr[i]);
             return 0;
         }
