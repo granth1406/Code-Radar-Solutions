@@ -6,5 +6,6 @@ int factorialRange(int start,int end){
         for(int j=start;j<=end;j++){
             fact=fact*j;
         }
+        printf("%d",fact);
     }
 }
