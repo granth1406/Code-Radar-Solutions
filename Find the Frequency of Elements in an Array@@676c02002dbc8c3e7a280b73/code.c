@@ -22,7 +22,8 @@ int main() {
             }
         }
         if(count>0){
-        printf("%d %d\n",arr[i],count);
+            if(arr[i]!=-1)
+                printf("%d %d\n",arr[i],count);
         }
     }
 }
