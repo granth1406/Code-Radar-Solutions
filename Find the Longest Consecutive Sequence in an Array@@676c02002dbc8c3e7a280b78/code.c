@@ -9,10 +9,10 @@ int main(){
     }
     int count=1;
     for(int i=1;i<size;i++){
-        if(arr[i]<arr[i+1]){
+        if(arr[i+1]=arr[i]+1){
             count++;
         }
-        else if(arr[i]>arr[i+1]){
+        else if(arr[i]=arr[i]-1){
             count++;
         }
     }
