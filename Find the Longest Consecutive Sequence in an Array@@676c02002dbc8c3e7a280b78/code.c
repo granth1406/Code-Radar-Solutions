@@ -12,6 +12,9 @@ int main(){
         if(arr[i]<arr[i+1]){
             count++;
         }
+        if(arr[i]>arr[i+1]){
+            count++;
+        }
     }
     printf("%d",count);
 }
